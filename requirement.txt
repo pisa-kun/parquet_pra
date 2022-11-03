@@ -1,0 +1,8 @@
+numpy
+pandas
+pip
+pyarrow
+python-dateutil
+pytz
+setuptools
+six
