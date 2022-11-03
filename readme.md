@@ -35,3 +35,8 @@
 
 この記事で紹介されている
 https://zenn.dev/kyami/articles/40771c49741c01
+
+
+#### glue job
+
+https://www.cloudnotes.tech/entry/glue-csv-parquet-athena
