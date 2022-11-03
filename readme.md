@@ -31,3 +31,7 @@
 - また、同一列であれば項目の属性も同じため圧縮が効きやすい
 [参照](https://www.souichi.club/technology/apache-parquet/)
 
+#### snowflakeとparquet
+
+この記事で紹介されている
+https://zenn.dev/kyami/articles/40771c49741c01
