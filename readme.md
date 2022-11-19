@@ -40,3 +40,14 @@ https://zenn.dev/kyami/articles/40771c49741c01
 #### glue job
 
 https://www.cloudnotes.tech/entry/glue-csv-parquet-athena
+
+#### parquet default compress
+
+https://www.techscore.com/blog/2019/12/07/parquet_examine/
+
+> 同じ CSV ファイルを gzip 圧縮したもの、Parquet に変換したもの（Parquet はデフォルトで Snappy 圧縮されます）を用意し、サイズを計測しました。
+
+
+```
+gzip が早々に頭打ちになったのに比べて、Parquet は継続的にサイズを小さくし続けていることが分かります。更にデータ件数が増えれば、gzip の10分の1、もとの CSV ファイルの100分の1程度にもなりそうです。ただし、ある程度のファイルサイズが無ければ恩恵を受けられないことも分かりました。
+```
