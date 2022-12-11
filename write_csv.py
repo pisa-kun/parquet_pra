@@ -13,5 +13,5 @@ print(df.info())
 print(df)
 
 ### TODO: making directory "data"
-df.to_csv('data/to_csv.csv', index=False)
+df.rename(columns=str.upper).to_csv('data/to_csv.csv', index=False)
 df.to_csv('data/to_csv_nheader.csv', header=False)
